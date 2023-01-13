@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Glaclo.jpg">
+    <title>Glaclo-Payment</title>
+</head>
+<body>
+    <nav class="wrapper">
+        <div class="name">
+            <a href="index.html" class="btn-dashboard">Glaclo</a>
+        </div>
+        <div class="searchform">
+            <form>
+                <label class="form-input">
+                    <input id="searchInput" class="searchform-input" placeholder="masukan kata kunci" type="search" autocomplete="noAutofill">
+                </label>
+            </form>
+            <button type="submit" class="searchform-btn">
+                <span class="iconsearchform"><img src="img/icon search.svg"></span>
+            </button>
+        </div>
+        <div class="menu">
+            <div class="icon-user">
+                <a href="user-login.html"><img src="img/icon user.svg"></a>
+            </div>
+            <div class="icon-love">
+                <a href="wishlist.html"><img src="img/icon love.svg"></a>
+            </div>
+            <div class="icon-cart">
+                <a href="cart.html"><img src="img/icon shop.svg"></a>
+            </div>
+        </div>
+    </nav><hr>
+    <section class="section-payment">
+        <div class="head-title">
+            <h2 class="fr-head">
+                <span class="title-pembayaran"><b>LANJUTKAN KE PEMBAYARAN</b></span>
+            </h2>
+        </div>
+        <div class="wrapper-content-payment">
+            <div class="left-content-payment">
+                <div class="opsi-pengiriman">
+                    <div class="border-top-opsi-pengiriman">
+                        <div class="wrapper-opsi-pengiriman">
+                            <h3 class="fr-head-opsi-pengiriman">
+                                <span class="title-opsi-pengiriman">OPSI PENGIRIMAN</span>
+                            </h3>
+                        </div>
+                        <div class="description-opsi-pengiriman">
+                            Silahkan pilih opsi pengiriman
+                        </div>
+                    </div>
+                    <div class="border-bottom-opsi-pengiriman">
+                        <div class="wrapper-opsi-delivery">
+                            <div class="btn-opsi-delivery">
+                                <input type="radio" id="shipping-delivery" name="shippingAddress" value="code">
+                                <label for="shippping-delivery" class="radio-opsi-delivery" data-test="shipping-to-address-radio">
+                                    <span class="title-radio-opsi">Kirim ke Alamat</span>
+                                </label>
+                            </div>
+                            <div class="btn-opsi-takeit-byself">
+                                <input type="radio" id="shipping-takeit" name="store" value="code">
+                                <label for="shippping-takeit" class="radio-opsi-takeit" data-test="pick-up-in-store-radio">
+                                    <span class="title-radio-opsi">Bayar & Ambil</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="description-opsi-delivery">
+                            <div class="title-description-opsi-delivery">
+                                <h2>ALAMAT PENGIRIMAN</h2>
+                                <span class="link-delivery-adress">
+                                    <button type="button">
+                                        <span class="text-btn-link-delivery">Pilih</span>
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="wrapper-info-section-address">
+                                <h4 class="info-main">Galih Putra Pratama</h4>
+                                <p>Guyangan,RT/RW 05/01, Guyangan,RT/RW 05/01, Central Java, Kab. Grobogan <span class="single-word"> &nbsp;58162 </span></p>
+                                <p>25951337 / 081325951336</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-date-of-delivery"></div>
+                    </div>
+                </div>
+                <div class="payment-method">
+                    <div class="border-top-payment-method">
+                        <div class="head-payment-method">
+                            <h3 class="fr-head-payment-method">
+                                <span class="title-payment-method">PILIHAN PEMBAYARAN</span>
+                            </h3>
+                        </div>
+                        <div class="description-head-payment-method">
+                            Silahkan pilih opsi pembayaran anda
+                        </div>
+                    </div>
+                    <div class="border-bottom-payment-method">
+                        <div class="option-payment-method">
+                            <div class="option-bank-tf-payment">
+                                <input type="radio" id="virtual-account-transfer" name="payment-option" value="virtual-account-transfer">
+                                <label for="virtual-account-transfer" class="radio-opsi-delivery" data-test="credit-card-radio">
+                                    <span class="title-radio-payment">Pembayaran transfer bank</span>
+                                </label>
+                            </div>
+                            <div class="option-credit-card-payment">
+                                <input type="radio" id="credit-card" name="payment-option" value="credit-card">
+                                <label for="credit-card" class="radio-opsi-delivery" data-test="credit-card-radio">
+                                    <span class="title-radio-payment">Kartu Kredit</span>
+                                </label>
+                            </div>
+                            <div class="option-cod">
+                                <input type="radio" id="COD" name="payment-option" value="COD">
+                                <label for="COD" class="radio-opsi-delivery" data-test="credit-card-radio">
+                                    <span class="title-radio-payment">COD</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <hr class="hr-border-inline">
+                        </div>
+                        <div class="content-payment-method">
+                            <div class="content-payment-method">
+                                <div class="text-content-payment-method">
+                                    Sebuah nomor rekening virtual akan dihasilkan saat melakukan pesanan.
+                                    Silahkan gunakan nomor rekening virtual untuk menyelesaikan pembayaran menggunakan internet banking atau melalui ATM.
+                                    Pesanan anda akan dibatalkan jika tidak menyelesaikan pembayaran dalam batas akhir waktu pembayaran.
+                                </div>
+                                <div class="text-content-payment-method2">
+                                    *Setelah anda melakukan transfer, kami hanya melakukan verfikasi pada jam yang telah ditentukan yaitu 08:00-15:00, setelah itu konfirmasi status pembayaran anda
+                                </div>
+                                <div class="option-BCA-VA">
+                                    <input type="radio" id="BCA-VA" name="BCA VA" value="BCA-VA">
+                                    <label for="BCA-VA" class="radio-opsi-delivery">
+                                        <span class="title-radio-payment">BCA VA</span>
+                                    </label>
+                                </div>
+                                <div class="option-BNI-VA">
+                                    <input type="radio" id="BNI-VA" name="BNI VA" value="BNI-VA">
+                                    <label for="BNI-VA" class="radio-opsi-delivery">
+                                        <span class="title-radio-payment">BNI VA</span>
+                                    </label>
+                                </div>
+                                <div class="option-BRI-VA">
+                                    <input type="radio" id="BRI-VA" name="BRI VA" value="BRI-VA">
+                                    <label for="BRI-VA" class="radio-opsi-delivery">
+                                        <span class="title-radio-payment">BRI VA</span>
+                                    </label>
+                                </div>
+                                <div class="option-Mandiri-VA">
+                                    <input type="radio" id="Mandiri-VA" name="Mandiri VA" value="Mandiri-VA">
+                                    <label for="Mandiri-VA" class="radio-opsi-delivery">
+                                        <span class="title-radio-payment">Mandiri VA</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="btn-payment-method">
+                                <div class="wrapper-btn-payment-method">
+                                    <a href="proses-pengiriman.html">
+                                        <button class="fr-btn-payment-method" type="button" data-test="lanjut">LANJUT</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-summary">
+                    <div class="border-order-summary">
+                        <h3>3. RINGKASAN PESANAN</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content-payment">
+                <div class="summary-product">
+                    <div class="border-top-summary-product">
+                        <div class="head-top-summary-product">
+                            <div class="head-summary-product">
+                                <span class="title-head-summary-product"><b>RINGKASAN PESANAN</b></span>
+                                <span class="title-head-summary-product"><b>1 PRODUK</b></span>
+                            </div>
+                            <div class="head-summary-product-link">
+                                <span class="link-ubah-product">
+                                    <a href="cart.html">UBAH</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-summary-product">
+                            <div class="fr-table-content-summary-product">
+                                <table>
+                                    <tbody>
+                                        <tr class="table-content-summary-product">
+                                            <td data-test="subtotal-produk-label">
+                                                Subtotal produk
+                                            </td>
+                                            <td data-test="subtotal-produk">
+                                                <span class="product-price">
+                                                    <abbr class="Rp-payment" title="Rupiah Indonesia">Rp</abbr>
+                                                    <span>199.000</span>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-content-summary-product">
+                                            <td data-test="subtotal-produk-label">
+                                                Pengiriman
+                                            </td>
+                                            <td data-test="subtotal-produk">
+                                                <span class="product-price">
+                                                    <abbr class="Rp-payment" title="Rupiah Indonesia">Rp</abbr>
+                                                    <span>30.000</span>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr class="header-row">
+                                            <th data-test="subtotal-label">
+                                                SUBTOTAL
+                                            </th>
+                                            <th data-test="subtotal">
+                                                <span class="product-price">
+                                                    <abbr class="Rp-payment" title="Rupiah Indonesia">Rp</abbr>
+                                                    <span>199.000</span>
+                                                </span>
+                                            </th>
+                                        </tr>
+                                        <tr class="table-content-summary-product">
+                                            <td data-test="termasuk-PPN-label">
+                                                Termasuk PPN
+                                            </td>
+                                            <td data-test="termasuk-PPN">
+                                                <span class="product-price">
+                                                    <abbr class="Rp-payment" title="Rupiah Indonesia">Rp</abbr>
+                                                    <span>5.000</span>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr class="header-row">
+                                            <th data-test="total-pesanan-label">
+                                                TOTAL PESANAN
+                                            </th>
+                                            <th data-test="total-pesanan">
+                                                <span class="product-price">
+                                                    <abbr class="Rp-payment" title="Rupiah Indonesia">Rp</abbr>
+                                                    <span>199.000</span>
+                                                </span>
+                                            </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper-border-bottom-summary-product">
+                        <div class="border-bottom-summary-product">
+                            <div class="wrapper-head-border-bottom-summary-product">
+                                <h4 class="fr-head-border-bottom-summary-product">
+                                    <span class="title-border-bottom-summary-product">PRODUK YANG DIPESAN</span>
+                                </h4>
+                            </div>
+                            <div class="wrapper-delivery-items">
+                                <ul class="inner">
+                                    <li class="items">
+                                        <img src="img/thumbnail-product.png" alt="jaket kemeja luaran warna coklat" class="items-image">
+                                        <span class="items-value">
+                                            1
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="wrapper-footer">
+        <div class="name">
+            Glaclo
+        </div><hr class="hr-footer">
+        <div class="wrapper-contact">
+            <div class="contact">
+                <span class="text-callme"><b>Hubungi kami</b></span>
+                <p class="contact-number"></span>081234567890(wa) dan <br/> Glaclo@co.id</p>
+            </div>
+            <div class="wrapper-medsos">
+                <div class="medsos">
+                    <span class="text-followme"><b>Ikuti media sosial Glaclo</b></span>
+                </div>
+                <div class="wrapper-icon-medsos">
+                    <div class="icon-ig">
+                        <a href="https://www.instagram.com/dior/?hl=en" target="_blank"><img src="img/icon-Instagram.svg"></a>
+                    </div>
+                    <div class="icon-fb">
+                        <a href="https://www.facebook.com/Dior" target="_blank"><img src="img/icon-fb.svg"></a>
+                    </div>
+                    <div class="icon-twitter">
+                        <a href="https://twitter.com/Dior" target="_blank"><img src="img/icon-Twitter.svg"></a>
+                    </div>
+                    <div class="icon-yt">
+                        <a href="https://www.youtube.com/user/dior/home" target="_blank"><img src="img/icon-yt.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

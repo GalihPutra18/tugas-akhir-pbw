@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Glaclo.jpg">
+    <title>Glaclo-Product</title>
+</head>
+<body>
+    <nav class="wrapper">
+        <div class="name">
+            <a href="index.html" class="btn-dashboard">Glaclo</a>
+        </div>
+        <div class="searchform">
+            <form>
+                <label class="form-input">
+                    <input id="searchInput" class="searchform-input" placeholder="masukan kata kunci" type="search" autocomplete="noAutofill">
+                </label>
+            </form>
+            <button type="submit" class="searchform-btn">
+                <span class="iconsearchform"><img src="img/icon search.svg"></span>
+            </button>
+        </div>
+        <div class="menu">
+            <div class="icon-user">
+                <a href="user-login.html"><img src="img/icon user.svg"></a>
+            </div>
+            <div class="icon-love">
+                <a href="wishlist.html"><img src="img/icon love.svg"></a>
+            </div>
+            <div class="icon-cart">
+                <a href="cart.html"><img src="img/icon shop.svg"></a>
+            </div>
+        </div>
+    </nav><hr>
+    <section class="section2">
+        <div class="leftContent">
+            <div class="content1">
+                <div class="wrap-thumbnail-image1">
+                    <button role="button" class="thumbnail-image" type="button" aria-label="product-thumbnail" style="border-color: black";>
+                        <img src="img/thumbnail1.png" alt="jaket kemeja luaran warna coklat" class="thumbnail-image1">
+                    </button>
+                </div>
+                    <button role="button" class="thumbnail-image2" type="button" aria-label="product-thumbnail" style="border-color:transparent";>
+                        <img src="img/thumbnail1.png" alt="jaket kemeja luaran warna coklat">
+                    </button>
+
+            </div>
+            <div class="content2">
+                <img src="img/thumbnail-product.png" alt="jaket kemeja luaran warna coklat" width="619px" height="570px">
+            </div>
+        </div>
+        <div class="rightContent">
+            <div class="product-detail">
+                <div class="product-name">
+                    <h1 class="product-name-head">Jaket Kemeja Luaran</h1>
+                </div>
+                <div class="detail-product">
+                    <div class="product-price">
+                        <abbr class="Rp" title="Rupiah Indonesia">Rp</abbr>
+                        <span class="price-product">199.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-product-summary">
+                <div>
+                    <div class="color-picker-wrapper">
+                        <div class="fr-head-color">
+                            <span class="title-color"><b>Warna: Cokelat Muda</b></span>
+                        </div>
+                        <div class="select-color">
+                            <div class="btn-color-coksu">
+                                <input type="radio" value="01" name="product-color-picker" id="product-color-picker01">
+                                <label class="label-btn-coksu" for="product-color-picker01">
+                                    <span class="fr-implisit-coksu" role="img" aria-label="coksu">Coksu</span>
+                                </label>
+                            </div>
+                            <div class="btn-color-olive">
+                                <input type="radio" value="02" name="product-color-picker" id="product-color-picker02">
+                                <label class="label-btn-olive" for="product-color-picker02">
+                                    <span class="fr-implisit-olive" role="img" aria-label="olive">Coksu</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size-picker-wrapper">
+                        <div class="fr-head-size">
+                            <span class="title-color"><b>Ukuran: M</b></span>
+                        </div>
+                        <div class="select-size">
+                            <div class="btn-size-M">
+                                <input type="radio" value="11" name="product-size-picker" id="product-size-picker01">
+                                <label class="label-btn-M" for="product-size-picker01">
+                                    <span class="fr-implisit-M" role="img" aria-label="M">M</span>
+                                </label>
+                            </div>
+                            <div class="btn-size-L">
+                                <input type="radio" value="12" name="product-size-picker" id="product-size-picker02">
+                                <label class="label-btn-L" for="product-size-picker02">
+                                    <span class="fr-implisit-L" role="img" aria-label="L">L</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pulldown-box-product">
+                        <div class="number-product">
+                            <div class="fr-head-number-product">
+                                <span class="title-number-product"><b>Jumlah</b></span>
+                            </div>
+                            <div class="quantity-dropdown">
+                                <input type="number" value="1" name="product-quantity-picker" id="product-quantity-picker01">
+                            </div>
+                        </div>
+                        <div class="btn-cart">
+                            <div class="wrapper-btn-cart">
+                                <a href="cart.html">
+                                    <button class="fr-btn-cart" type="button" data-test="tambhkan-ke-keranjang-button">TAMBAHKAN KE KERANJANG</button>
+                                </a>
+                            </div>
+                            <div class="btn-wishlist">
+                                <div class="icon-wishlist">
+                                    <a href="wishlist.html"><img src="img/icon love.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="wrapper-footer">
+        <div class="name">
+            Glaclo
+        </div><hr class="hr-footer">
+        <div class="wrapper-contact">
+            <div class="contact">
+                <span class="text-callme"><b>Hubungi kami</b></span>
+                <p class="contact-number"></span>081234567890(wa) dan <br/> Glaclo@co.id</p>
+            </div>
+            <div class="wrapper-medsos">
+                <div class="medsos">
+                    <span class="text-followme"><b>Ikuti media sosial Glaclo</b></span>
+                </div>
+                <div class="wrapper-icon-medsos">
+                    <div class="icon-ig">
+                        <a href="https://www.instagram.com/dior/?hl=en" target="_blank"><img src="img/icon-Instagram.svg"></a>
+                    </div>
+                    <div class="icon-fb">
+                        <a href="https://www.facebook.com/Dior" target="_blank"><img src="img/icon-fb.svg"></a>
+                    </div>
+                    <div class="icon-twitter">
+                        <a href="https://twitter.com/Dior" target="_blank"><img src="img/icon-Twitter.svg"></a>
+                    </div>
+                    <div class="icon-yt">
+                        <a href="https://www.youtube.com/user/dior/home" target="_blank"><img src="img/icon-yt.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

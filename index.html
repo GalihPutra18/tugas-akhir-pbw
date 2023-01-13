@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Glaclo.jpg">
+    <title>Glaclo-Dashboard</title>
+</head>
+<body class="body">
+    <nav class="wrapper">
+        <div class="name">
+            <a href="index.html" class="btn-dashboard">Glaclo</a>
+        </div>
+        <div class="searchform">
+            <form>
+                <label class="form-input">
+                    <input id="searchInput" class="searchform-input" placeholder="masukan kata kunci" type="search" autocomplete="noAutofill">
+                </label>
+            </form>
+            <button type="submit" class="searchform-btn">
+                <span class="iconsearchform"><img src="img/icon search.svg"></span>
+            </button>
+        </div>
+        <div class="menu">
+            <div class="icon-user">
+                <a href="user-login.html"><img src="img/icon user.svg"></a>
+            </div>
+            <div class="icon-love">
+                <a href="wishlist.html"><img src="img/icon love.svg"></a>
+            </div>
+            <div class="icon-cart">
+                <a href="cart.html"><img src="img/icon shop.svg"></a>
+            </div>
+        </div>
+    </nav>
+    <section class="wrapper-section">
+        <div class="mySlides">
+            <div class="slide">
+                <a href="kemeja-kasual.html"><img src="img/jaket-1.png" class="img1"></a>
+            </div>
+            <!--
+            <div class="slide">
+                <img src="img/img5.jpeg" class="img2">
+            </div>
+            <div class="slide">
+                <img src="img/img4.jpeg" class="img3">
+            </div>
+            <div class="navigation">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>-->
+        </div>
+            
+        <div class="wrapper-category">
+            <div class="category">
+                <h2><b>SEARCH BY CATEGORY</b></h2>
+            <div class="wrapper-category-content">
+                <div class="category-t-shirt">
+                    <a href="kemeja-kasual.html"><img src="img/t-shirt.png" class="t-shirt"></a>
+                    <p>T-shirt</p>
+                </div>
+                <div class="category-polo">
+                    <a href="kemeja-kasual.html"><img src="img/polo.png" class="t-shirt"></a>
+                    <p>Polo</p>
+                </div>
+                <div class="category-jeans">
+                    <a href="kemeja-kasual.html"><img src="img/jeans.png" class="t-shirt"></a>
+                    <p>Jeans</p>
+                </div>
+                <div class="category-celana-pendek">
+                    <a href="kemeja-kasual.html"><img src="img/celana-pendek.png" class="t-shirt"></a>
+                    <p>Celana <br/> Pendek</p>
+                </div>
+                <div class="category-blus">
+                    <a href="kemeja-kasual.html"><img src="img/blus.png" class="t-shirt"></a>
+                    <p>Blus</p>
+                </div>
+                <div class="category-jaket">
+                    <a href="kemeja-kasual.html"><img src="img/jaket.png" class="t-shirt"></a>
+                    <p>Jaket</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="wrapper-footer" id="footer">
+        <div class="name">
+            Glaclo
+        </div><hr class="hr-footer">
+        <div class="wrapper-contact">
+            <div class="contact">
+                <span class="text-callme"><b>Hubungi kami</b></span>
+                <p class="contact-number"></span>081234567890(wa) dan <br/> Glaclo@co.id</p>
+            </div>
+            <div class="wrapper-medsos">
+                <div class="medsos">
+                    <span class="text-followme"><b>Ikuti media sosial Glaclo</b></span>
+                </div>
+                <div class="wrapper-icon-medsos">
+                    <div class="icon-ig">
+                        <a href="https://www.instagram.com/dior/?hl=en" target="_blank"><img src="img/icon-Instagram.svg"></a>
+                    </div>
+                    <div class="icon-fb">
+                        <a href="https://www.facebook.com/Dior" target="_blank"><img src="img/icon-fb.svg"></a>
+                    </div>
+                    <div class="icon-twitter">
+                        <a href="https://twitter.com/Dior" target="_blank"><img src="img/icon-Twitter.svg"></a>
+                    </div>
+                    <div class="icon-yt">
+                        <a href="https://www.youtube.com/user/dior/home" target="_blank"><img src="img/icon-yt.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer >
+    <!--
+        <script>
+        var slideIndex=1;
+        showSlides(slideIndex);
+
+        function plusSlides(n){
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n){
+            let  i;
+            let slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {slideIndex=1}
+            if(n<1) {slideIndex=slides.length}
+            for(i=0;i< slides.lenght;i++)
+            {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display="block";
+        }
+    </script>-->
+
+</body>
+</html>
